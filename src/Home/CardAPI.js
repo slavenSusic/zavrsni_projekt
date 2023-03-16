@@ -8,7 +8,7 @@ const CardAPI = (props) => {
       {/* <Zoom duration={3000}> */}
       
       <div className="flex justify-center pb-12">
-        <h1 className="font-extrabold mt-20 text-center text-5xl inline-block relative py-2 border-b-2 border-blue-300  text-purple-200 ">
+      <h1 className="font-extrabold mt-20 text-center text-5xl inline-block relative py-2 border-b-2 border-purple-800  text-purple-800 ">
           Our top trending coins
         </h1>
        
@@ -18,7 +18,7 @@ const CardAPI = (props) => {
       <div className="mt-10 flex justify-center gap-14 lg:mx-10 min-[0px]:max-[641px]:grid grid-cols-1 justify-items-center md:flex justify-center px-10  ">
      
         {props.cardList.map((card) => (
-          <div className=" py-10 px-3 card w-96 bg-base-100 shadow-xl bg-gray-700 text-center text-white lg:mx-10 md:py-5  min-[0px]:max-[404px]:w-72 ">
+       <div className="  border-solid border-gray-500 border-2 py-10 px-3 card w-96 bg-base-100 shadow-xl bg-gray-700 text-center text-white lg:mx-10 md:py-5  min-[0px]:max-[404px]:w-72 ">
             <div className="card-body ">
               <h2 className="card-title block font-semibold">{card.name}</h2>
               <h2 className="card-title block font-semibold">${card.current_price}</h2>

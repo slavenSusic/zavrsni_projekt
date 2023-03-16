@@ -132,7 +132,7 @@ const periodall = () => {
   return (
     <>
     
-    <div className='max-w-full text-center bg-gradient-to-bl from-gray-900 viagray-600 to-gray-200 '>
+    <div className='max-w-full text-center bg-gray-300 '>
     <InfoCardAPI />
     <h2 className="text-center text-5xl p-10 font-bold text-purple-400 max-[641px]: text-purple-500"  >Check the history graph</h2>
     <div className='flex justify-center '>

@@ -12,7 +12,7 @@ const NavBar =() => {
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <Link to ='/'>
-                        <h2 className='font-extrabold text-2xl' ><span className="font-extrabold text-2xl">Cr</span>/<span className=" text-2xl text-yellow-700">ypro</span></h2>
+                        <h2 className='font-extrabold text-2xl' ><span className="font-extrabold text-2xl">Cry</span>/<span className=" text-2xl text-yellow-700">pro</span></h2>
                         </Link>
                     <div className="md:hidden">
                         <button
